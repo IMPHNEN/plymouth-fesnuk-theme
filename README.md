@@ -1,6 +1,6 @@
 # tema plymouth untuk user IMPHNEN fesnuk
 
-[plymouth](media/skrinsut.png)
+![skrinsut](media/skrinsut.png)
 
 
 ## cara install tema inij
