@@ -1,0 +1,101 @@
+[Plymouth Theme]
+Name[be]=fesnuk
+Name[cs]=fesnuk
+Name[da]=fesnuk
+Name[de]=fesnuk
+Name[eo]=fesnuk
+Name[es]=fesnuk
+Name[eu]=fesnuk
+Name[fr]=fesnuk
+Name[fur]=fesnuk
+Name[hi]=fesnuk
+Name[hr]=fesnuk
+Name[hu]=fesnuk
+Name[id]=fesnuk
+Name[it]=fesnuk
+Name[lt]=fesnuk
+Name[ka]=fesnuk
+Name[nl]=fesnuk
+Name[pa]=fesnuk
+Name[pl]=fesnuk
+Name[pt_BR]=fesnuk
+Name[ro]=fesnuk
+Name[ru]=fesnuk
+Name[sr]=fesnuk
+Name[sv]=fesnuk
+Name[uk]=fesnuk
+Name[zh_CN]=fesnuk
+Name[ms]=fesnuk
+Name[he]=fesnuk
+Name[fa]=fesnuk
+Name[fi]=fesnuk
+Name[ie]=fesnuk
+Name[gl]=fesnuk
+Name[cy]=fesnuk
+Name[kk]=fesnuk
+Name[sl]=fesnuk
+Name[el]=fesnuk
+Name=fesnuk
+Description=spninner fesnuk dsw
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes//fesnuk
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.5
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
